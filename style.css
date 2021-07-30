@@ -1,0 +1,87 @@
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+/* navbar */
+.navbar{
+    background-color: rgba(255, 255, 255, 0.795);
+}
+.nav-item{
+    padding: 3px 30px;
+}
+.nav-item:hover{
+    background-color: rgba(128, 128, 128, 0.445);
+}
+.bg-color:hover{
+    background: #000!important;
+    color: white!important;
+}
+.text-color{
+    color: rgba(0, 0, 0, 0.623);
+}
+.text-color:hover{
+    color: white!important;
+}
+.bg-img, .bg-img-2{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.bg-img{
+    background-image: url('img/wedding_couple.jpg');  
+}
+.bg-img-2{
+    background-image: url('img/flowers.jpg');
+}
+.bg-position{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.p-m{
+    padding: 0;
+    margin: 0;
+}
+.btn-color{
+    padding: 8px 20px;
+    background: #000;
+    color: white;
+}
+.btn-color-2{
+    color: #fff;
+    background-color: #f44336;
+    padding:8px 60px;
+}
+.btn-color-2:hover{
+    background-color: gray;
+    color: #000;
+}
+.bg-color-2{
+    background: #000;
+    color: white;
+
+}
+.bg-color-2 a{
+    color: white;
+    text-decoration: underline;
+}
+/* modal */
+.flex{
+    display: flex!important;
+}
+.btn-color-3{
+    background-color: rgb(0, 128, 0);
+    color: white;
+    width: 100%!important;
+}
+.btn-color-4{
+    background-color: #f44336;
+    color: white;
+    width: 100%;
+}
+.btn-color-3:hover, .btn-color-4:hover{
+    background-color: gray;
+    color: #000;
+}
